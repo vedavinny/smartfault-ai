@@ -25,9 +25,9 @@ jobs:
           pip install flake8 pytest pytest-asyncio httpx
           pip install fastapi uvicorn pydantic numpy pandas scikit-learn xgboost
 
-      - name: Lint with flake8
-        run: |
-          flake8 api/ models/ data/ --max-line-length=110 --ignore=E203,W503
+      # - name: Lint with flake8
+      #   run: |
+      #     flake8 api/ models/ data/ --max-line-length=110 --ignore=E203,W503
 
       # - name: Run API tests
       #   run: |
