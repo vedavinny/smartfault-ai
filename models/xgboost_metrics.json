@@ -1,0 +1,18 @@
+{
+  "accuracy": 0.9530960111317254,
+  "f1": 0.7546254170457992,
+  "roc_auc": 0.8747377306494936,
+  "params": {
+    "n_estimators": 351,
+    "max_depth": 7,
+    "learning_rate": 0.199276357185042,
+    "subsample": 0.9771123775060498,
+    "colsample_bytree": 0.7500380914964092,
+    "min_child_weight": 1,
+    "reg_alpha": 0.4411091908277678,
+    "reg_lambda": 4.226425566798307,
+    "scale_pos_weight": 7.8644481562379545,
+    "random_state": 42,
+    "n_jobs": -1
+  }
+}
